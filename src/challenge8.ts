@@ -5,5 +5,4 @@ function celciusToFahrenheit(n : number) {
     return n * 1.8 + 32;
 };
 
-let r = celciusToFahrenheit(20);
-console.log (r);
+console.log(celciusToFahrenheit(20));

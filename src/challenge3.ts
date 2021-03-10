@@ -7,7 +7,3 @@ export function multiplesOfSeven() : string[] {
   }
   return list;
 }
-
-/* for ( let i = 0; i <= 10; i++ ) {
-    console.log('7 times ' + i + ' equals ' + i * 7);
-} */

@@ -1,5 +1,9 @@
 // print numbers from 1 to 10
 
-for ( let i = 0; i <= 10; i++ ) {
-    console.log(i);
-};
+export function printNumbers() : number[] {
+  const numbers = [];
+  for (let i = 1; i <= 10; i += 1) {
+    numbers.push(i);
+  }
+  return numbers;
+}

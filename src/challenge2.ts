@@ -1,6 +1,11 @@
-//print the odd numbers less than 100
+// print the odd numbers less than 100
 
-for ( let i = 0; i <= 100; i++ ) {
-    if ( i % 2 != 0)
-        console.log(i + ' is odd');
-};
+export function printOddNumbers() : number[] {
+  const oddNumbers = [];
+  for (let i = 0; i <= 100; i += 1) {
+    if (i % 2 !== 0) {
+      oddNumbers.push(i);
+    }
+  }
+  return oddNumbers;
+}

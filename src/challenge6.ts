@@ -1,14 +1,11 @@
 // calculate 10!
 
-function calc10 () {
+export function factorial(n : number) : number {
+  let prod = 1;
 
-    let prod = 1;
+  for (let i = 1; i <= n; i += 1) {
+    prod *= i;
+  }
 
-    for (let i = 1; i <= 10; i++ ) {
-        prod *= i;
-    }
-
-    console.log(prod);
-};
-
-calc10();
+  return prod;
+}

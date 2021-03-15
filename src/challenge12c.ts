@@ -1,14 +1,8 @@
 // Create a function that receives an array of numbers and returns an array
 // containing only the positive numbers.
-// Requirement: Use Array.prototype.forEach()
+// Requirement: Use Array.prototype.filter()
 
 export function getPositives(ar : number[]) : number[] {
-  const ar2 : number[] = [];
-
-  ar.forEach(el => {
-    if (el >= 0) {
-      ar2.push(el);
-    }
-  });
+  const ar2 = ar.filter(el => el >= 0);
   return ar2;
 }

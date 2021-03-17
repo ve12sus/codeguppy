@@ -1,4 +1,5 @@
 // print the multiplication table with 7
+
 import { expect } from 'chai'
 import { multiplesOfSeven } from '../src/challenge3'
 
@@ -13,3 +14,4 @@ describe('print the multiplication table with 7', function() {
     });
   });
 });
+

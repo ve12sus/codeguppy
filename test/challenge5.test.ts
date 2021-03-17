@@ -1,4 +1,5 @@
 // calculate the sum of numbers from 1 to 10
+
 import { expect } from 'chai'
 import { summation } from '../src/challenge5'
 

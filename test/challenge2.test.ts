@@ -1,3 +1,5 @@
+// Print the odd numbers less than 100
+
 import { expect } from 'chai';
 import { printOddNumbers } from '../src/challenge2';
 

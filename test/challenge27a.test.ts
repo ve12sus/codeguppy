@@ -11,3 +11,4 @@ describe('Create a function that will return a new array with distinct elements'
     });
   });
 });
+

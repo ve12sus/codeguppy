@@ -1,4 +1,5 @@
 // print all the multiplication tables with numbers from 1 to 10
+
 import { expect } from 'chai'
 import { multiplyTable } from '../src/challenge4'
 

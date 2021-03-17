@@ -3,9 +3,9 @@
 import { expect } from 'chai'
 import { rotateLeft } from '../src/challenge20'
 
-describe('Print the first 100 prime numbers', function() {
+describe('Rotate an array to the left 1 position', function() {
   describe('#rotateLeft()', function() {
-    it('should print the first 100 prime numbers', function() {
+    it('should Rotate an array to the left 1 position', function() {
       expect(rotateLeft([1,2,3])).to.deep.equal([2,3,1]);
     });
   });

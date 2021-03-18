@@ -1,6 +1,6 @@
 // Create a function that will return the number of words in a text
 
-function isSeparator(c : string) {
+export function isSeparator(c : string) : boolean {
   const separators = [' ', '\t', '\n', '\r', ',', ';', '.', '!', '?'];
   return separators.includes(c);
 }

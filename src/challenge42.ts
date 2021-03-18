@@ -1,4 +1,4 @@
-// Create a function that will return a Boolean value indicating if two circles defined 
+// Create a function that will return a Boolean value indicating if two circles defined
 // by center coordinates and radius are intersecting
 
 import { getDistance } from './challenge41';
